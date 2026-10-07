@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "askhabib"
+version = "0.1.0"
+description = "MCP server exposing Habib Ur Rehman's publications and professional profile"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Habib Ur Rehman", email = "habib.gcuf.edu@gmail.com" }]
+keywords = ["mcp", "model-context-protocol", "profile", "publications"]
+dependencies = ["mcp"]
+
+[project.urls]
+Homepage = "https://github.com/habib-analyst/ask-habib-mcp"
+Issues = "https://github.com/habib-analyst/ask-habib-mcp/issues"
+
+[project.scripts]
+ask-habib-server = "askhabib.server:main"
+ask-habib-demo = "askhabib.demo_client:main"
+
+[tool.setuptools.packages.find]
+include = ["askhabib*"]
