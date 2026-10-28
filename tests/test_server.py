@@ -88,7 +88,7 @@ def test_tool_get_profile():
 
 def test_tool_get_links():
     links = _call_json("get_links", {})
-    assert links["github"] == "https://github.com/Habib-Rehmn"
+    assert links["github"] == "https://github.com/habib-analyst"
     assert links["email"] == "habib.gcuf.edu@gmail.com"
 
 

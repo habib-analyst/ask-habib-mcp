@@ -52,7 +52,7 @@ PROFILE: Dict[str, Any] = {
 }
 
 LINKS: Dict[str, str] = {
-    "github": "https://github.com/Habib-Rehmn",
+    "github": "https://github.com/habib-analyst",
     "linkedin": "https://www.linkedin.com/in/hur-dev",
     "website": "https://habib.top",
     "email": "habib.gcuf.edu@gmail.com",

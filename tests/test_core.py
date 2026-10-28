@@ -106,7 +106,7 @@ def test_get_profile_contents():
 def test_get_links_exact_urls():
     links = core.get_links()
     assert links == {
-        "github": "https://github.com/Habib-Rehmn",
+        "github": "https://github.com/habib-analyst",
         "linkedin": "https://www.linkedin.com/in/hur-dev",
         "website": "https://habib.top",
         "email": "habib.gcuf.edu@gmail.com",
